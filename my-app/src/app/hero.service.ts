@@ -4,11 +4,10 @@ import { Observable, of } from 'rxjs';
 import { Label } from './hero';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class HeroService {
-
-  constructor() { }
+  constructor() {}
 
   getHeroes(): Observable<Label[]> {
     return of(Heroes);

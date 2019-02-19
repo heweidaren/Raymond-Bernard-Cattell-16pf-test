@@ -1,0 +1,19 @@
+.body {
+  padding-top: 30%;
+  margin: 0 10px;
+  span {
+    color: #ccc;
+    font-size: 12px;
+  }
+}
+.btn {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+}
