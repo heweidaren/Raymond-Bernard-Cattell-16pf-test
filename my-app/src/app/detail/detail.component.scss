@@ -1,0 +1,27 @@
+.zhuti {
+  height: 100%;
+
+  .txt {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .but {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+
+    a {
+      min-width: 30%;
+      margin: 0 auto;
+      padding: 5px;
+      border: 2px solid red;
+      display: block;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+  }
+}

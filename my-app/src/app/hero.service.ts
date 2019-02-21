@@ -4,7 +4,7 @@ import { Observable, of } from 'rxjs';
 import { Label } from './hero';
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class HeroService {
   constructor() {}

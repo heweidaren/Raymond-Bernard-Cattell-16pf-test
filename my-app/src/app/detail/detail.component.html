@@ -1,9 +1,13 @@
-<div>
-  {{hero.id}}.{{hero.name}}
-</div>
+<div class="zhuti">
+  <div class="txt">
+    <p>
+      {{hero[id].id}}.{{hero[id].name}}
+    </p>
+  </div>
 
-<div>
-  <a routerLink="/detail/{{id+1}}">{{hero.option[0]}}</a>
-  <a routerLink="/detail/{{id-1}}">{{hero.option[1]}}</a>
-  <div>{{hero.option[2]}}</div>
+  <div class="but">
+    <a (click)="onClick()">{{hero[id].option[0]}}</a>
+    <a (click)="onClick()">{{hero[id].option[1]}}</a>
+    <a (click)="onClick()">{{hero[id].option[2]}}</a>
+  </div>
 </div>
